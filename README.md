@@ -1,1 +1,1 @@
-# SportaManiac
+# SportsManiac
