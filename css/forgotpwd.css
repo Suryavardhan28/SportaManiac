@@ -1,0 +1,118 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+body::before{
+  content:'';
+  position: absolute;
+  width:100vw;
+  height:100vh;
+  background: url('../img/right.jpg')center center/cover;
+  opacity: 0.9;
+}
+
+#container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Baloo Da 2', cursive; 
+}
+
+#container h1{
+  margin-top:100px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 5rem;
+  color:#222;
+  z-index:2;
+}
+
+#container h1 span,
+#container button span{
+  color:rgb(187, 6, 6);
+}
+
+#container h2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.2rem;
+  padding-bottom:60px;
+  z-index:2;
+}
+
+#random{
+  font-size:2rem ;
+  margin-right:230px;
+  margin-bottom:0;
+  z-index:2;
+}
+
+#container form{
+  z-index:2;
+}
+
+#container form input{
+  padding:23px;
+  height: 2rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  width:500px;
+  background-color: rgb(199, 198, 196);
+  margin-bottom:50px;
+}
+
+button{
+  width: 500px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(199, 198, 196);
+  outline-color: rgb(187, 6, 6);
+  height: 60px;
+  z-index:2;
+}
+
+button h3{
+  font-family: 'Poppins', sans-serif;
+  font-size:2.2rem ;
+  text-align: center;
+}
+
+button:hover{
+  cursor: pointer;
+  width:505px;
+  height:65px;
+  background-color: rgb(180, 180, 179);
+}
+
+#or{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width:500px;
+  margin:50px 0;
+  z-index:2;
+}
+
+#or span{
+  font-size: 2rem;
+}
+
+#or .bar{
+  flex:auto;
+  border:none;
+  height:1px;
+  background:#000;
+  margin:5px;
+}
+
+#create{
+  text-decoration:none;
+  font-size:2rem;
+  color:rgb(187, 6, 6);
+  z-index:2;
+}
+
+
