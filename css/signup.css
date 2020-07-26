@@ -1,0 +1,133 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+body{
+  background-color: rgb(235, 233, 233);
+  font-family: 'Baloo Da 2', cursive;
+}
+
+#main{
+  display: flex;
+  flex-direction: row;
+}
+
+#type{
+  width:50vw;
+  align-items: center;
+  text-align: center;
+}
+
+body h1{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 5rem;
+  color:#222;
+}
+
+body * span{
+  color:rgb(187, 6, 6);
+}
+
+body h2{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#form img{
+  width:450px;
+  height:300px;
+  border-radius: 4px;
+  border: 1px solid rgb(187, 6, 6);
+}
+
+#form input{
+  margin-right:10px;
+  align-self: center;
+}
+
+#form .input{
+  font-size: 2rem;
+}
+
+#signup{
+  width:50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-left:1px solid #222;
+  margin:10px 0;
+}
+
+#signup h2{
+  margin-bottom: 50px;
+}
+
+#signup form{
+  display: flex;
+  flex-direction: column;
+}
+
+#signup form input {
+  padding:25px;
+  height: 2rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  width:500px;
+  background-color: rgb(199, 198, 196);
+  margin-bottom:35px;
+}
+
+#signup button{
+  font-family: 'Poppins', sans-serif;
+  font-size:2.2rem ;
+  width: 500px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(199, 198, 196);
+  outline-color: rgb(187, 6, 6);
+  height: 60px;
+}
+
+#signup button:hover{
+  cursor: pointer;
+  width:505px;
+  height:65px;
+  background-color: rgb(180, 180, 179);
+}
+
+#or{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width:500px;
+  margin-top:40px;
+  margin-bottom: 30px;
+}
+
+#or span{
+  font-size: 2rem;
+  color:#000;
+}
+
+#or .bar{
+  flex:auto;
+  border:none;
+  height:1px;
+  background:#000;
+  margin:5px;
+}
+
+#signup h3{
+  font-size:2rem;
+  font-weight: lighter;
+}
+
+#signup h3 a{
+  text-decoration: none;
+}
